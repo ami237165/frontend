@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat board</title>
+    <script src="https://cdn.socket.io/4.8.1/socket.io.min.js"
+        integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Chat with Other Users</h1>
+    <input id="receiver" type="text" placeholder="Receiver UserId" />
+    <input id="message" type="text" placeholder="Enter your message" />
+    <button id="send">Send</button>
+    <div id="chat-window"></div>
+</body>
+<script src="./chatBoard.js"></script>
+
+</html>
